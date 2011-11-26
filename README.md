@@ -7,7 +7,7 @@ I could go further and rewrite class and methods comments to be compatible with 
 ## Install
 
     pear channel-discover pear.ada-consult.com
-    pear install ada/Markdown\_Parser
+    pear install ada/Markdown_Parser
 
 ## How to use
 
