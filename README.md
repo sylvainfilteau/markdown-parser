@@ -6,14 +6,15 @@ I could go further and rewrite class and methods comments to be compatible with 
 
 ## Install
 
-pear channel-discover pear.ada-consult.com
-pear install ada/Markdown\_Parser
+    pear channel-discover pear.ada-consult.com
+    pear install ada/Markdown\_Parser
 
 ## How to use
 
 When using a [psr-0 compliant](http://groups.google.com/group/php-standards) autoloader, you should use it like it :
 
-`<?php
+```php
+<?php
 
 use Markdown\Parser;
 
@@ -22,7 +23,8 @@ $text = "# Markdown string
 This is a markdown formatted string";
 
 $parser = new Parser();
-echo $parser->transform($text);`
+echo $parser->transform($text);
+```
 
 This code snippet should output:
 
