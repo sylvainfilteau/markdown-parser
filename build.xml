@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="INeedBackup" basedir="." default="pear-package">
+<project name="Markdown_Parser" basedir="." default="pear-package">
 	
 	<property file="build.properties" />
 	
